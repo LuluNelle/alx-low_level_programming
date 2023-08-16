@@ -8,9 +8,8 @@
 void print_alhabet(void)
 {
 int i;
-for(i='a'; i<='z';i++)
+for(i=97; i<=122;i++)
 {
 _putchar(i);
 }
-_pitchar(i);
-}
+_pitchar('\n');
