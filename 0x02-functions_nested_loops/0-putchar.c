@@ -7,7 +7,7 @@
 * Return: On success, returns the number of characters written.
 * On error, returns -1 and sets errno appropriately.
 */
-int _putchar(char c)
+int main(void) 
 {	
 _putchar('_');
 _putchar('p');
