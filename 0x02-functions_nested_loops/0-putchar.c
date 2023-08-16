@@ -1,13 +1,22 @@
-#include <stdio.h>
-#include<main.h>
-/** 
-* main - Entry point 
-* Description: This code prints the word _putchar
-* Return: Always 0 (Success)
-*/
+#include "main.h"
 
-int main()
+/**
+* _putchar - Writes a character to the standard output (stdout)
+* @c: The character to be written
+*
+* Return: On success, returns the number of characters written.
+* On error, returns -1 and sets errno appropriately.
+*/
+int main(void)
 {
-putchar("putchar\n");
-return 0;
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
+_putchar('\n');
+return (0);
 }
